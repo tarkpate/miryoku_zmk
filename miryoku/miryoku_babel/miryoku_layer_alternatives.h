@@ -398,7 +398,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_BASE_RIGHTY \
+#define MIRYOKU_ALTERNATIVES_RIGHTY \
 &kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog RIGHTY,       \
 &hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
 &lt U_BUTTON U_NU, &hm RALT DEL,      &kp DOT,           &kp M,             &kp X,             &kp B,             &kp D,             &kp G,             &hm RALT V,        &lt U_BUTTON J,    \
