@@ -129,7 +129,7 @@ U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt 
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
 U_NU,              &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &hm LGUI R,        &hm LALT S,        &hm LCTRL T,       &hm LSHFT H,       &kp P,             &kp W,             &hm LSHFT N,       &hm LCTRL A,       &hm LALT I,        &hm LGUI O,        \
-&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &lt U_BUTTON &tog RIGHTY,\
+&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &lt U_BUTTON &tog U_RIGHTY,\
 U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt U_MOUSE TAB,   &lt U_SYM RET,     &lt U_NUM BSPC,    &lt U_FUN DEL,     U_NP,              U_NP
 
 
@@ -399,7 +399,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_RIGHTY \
-&kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog RIGHTY,       \
+&kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,       \
 &hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
 &lt U_BUTTON U_NU, &hm RALT DEL,      &kp DOT,           &kp M,             &kp X,             &kp B,             &kp D,             &kp G,             &hm RALT V,        &lt U_BUTTON J,    \
 U_NP,              U_NP,              &lt U_MEDIA BSPC,  &lt U_NAV SPC,     &lt U_MOUSE RET,   &lt U_SYM ESC,     &lt U_NUM E,       &lt U_FUN TAB,     U_NP,              U_NP
