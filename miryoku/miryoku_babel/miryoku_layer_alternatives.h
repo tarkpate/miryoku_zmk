@@ -406,7 +406,7 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 #define MIRYOKU_ALTERNATIVES_RIGHTY \
 &kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
-&hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R, &kp U,        \
+&hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
 &tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_MEDIA B,     &kp D,             &kp G,             &hm RALT V,        &lt U_BUTTON J,    \
 U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &kp TAB,           U_NP,              U_NP
 
