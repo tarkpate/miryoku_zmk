@@ -127,9 +127,9 @@ U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt 
 U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt U_RBNFRD ESC,  &lt U_RNSYM RET,   &lt U_RPUNC SPC,   &lt U_RBRAC BSPC,  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
-&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
+&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &lt U_MEDIA Z,     &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &hm LGUI R,        &hm LALT S,        &hm LCTRL T,       &hm LSHFT H,       &kp P,             &kp W,             &hm LSHFT N,       &hm LCTRL A,       &hm LALT I,        &hm LGUI O,        \
-&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &lt U_MEDIA X,     &kp M,             &kp DOT,           &hm RALT DEL,      &tog U_RIGHTY,\
+&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &tog U_RIGHTY,\
 U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt U_RBNFRD ESC,  &lt U_RNSYM RET,   &lt U_RPUNC SPC,   &lt U_RBRAC BSPC,  U_NP,              U_NP
 
 
@@ -386,9 +386,9 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
-U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F10,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F1,            &kp F2,            &kp F3,            &kp F4,            \
+U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F5,            &kp F6,            &kp F11,           &kp F12,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
@@ -407,7 +407,7 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 #define MIRYOKU_ALTERNATIVES_RIGHTY \
 &kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
 &hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
-&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_MEDIA B,     &kp D,             &kp G,             &hm RALT V,        &lt U_BUTTON J,    \
+&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_FUN_FLIP B,  &kp D,             &kp G,             &hm RALT V,        &kp J,             \
 U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &kp TAB,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_RNAV \
