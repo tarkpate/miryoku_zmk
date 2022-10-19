@@ -405,7 +405,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_RIGHTY \
-&kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
+&kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &lt U_MEDIA K,     &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
 &hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
 &tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_FUN B,       &kp D,             &kp G,             &hm RALT V,        &kp J,             \
 U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &lt U_MEDIA TAB,   U_NP,              U_NP
