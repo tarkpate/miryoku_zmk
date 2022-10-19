@@ -127,7 +127,7 @@ U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt 
 U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt U_RBNFRD ESC,  &lt U_RNSYM RET,   &lt U_RPUNC SPC,   &lt U_RBRAC BSPC,  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
-&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &lt U_MEDIA Z,     &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
+&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &hm LGUI R,        &hm LALT S,        &hm LCTRL T,       &hm LSHFT H,       &kp P,             &kp W,             &hm LSHFT N,       &hm LCTRL A,       &hm LALT I,        &hm LGUI O,        \
 &lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &tog U_RIGHTY,\
 U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt U_RBNFRD ESC,  &lt U_RNSYM RET,   &lt U_RPUNC SPC,   &lt U_RBRAC BSPC,  U_NP,              U_NP
@@ -392,10 +392,10 @@ U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
-&kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &u_bootloader,     \
-&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &to U_FUN,         &to U_MEDIA,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp K_APP,         &kp SPC,           &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F10,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F1,            &kp F2,            &kp F3,            &kp F4,            \
+U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F5,            &kp F6,            &kp F11,           &kp F12,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
@@ -407,8 +407,8 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 #define MIRYOKU_ALTERNATIVES_RIGHTY \
 &kp Q,             &kp U,             &kp COMMA,         &kp L,             &kp Z,             &kp K,             &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
 &hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
-&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_FUN_FLIP B,  &kp D,             &kp G,             &hm RALT V,        &kp J,             \
-U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &kp TAB,           U_NP,              U_NP
+&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &lt U_FUN X,       &lt U_FUN B,       &kp D,             &kp G,             &hm RALT V,        &kp J,             \
+U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &lt U_MEDIA TAB,   U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_RNAV \
 U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_RDO,             U_PST,             U_CPY,             U_CUT,             \
