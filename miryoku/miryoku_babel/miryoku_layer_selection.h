@@ -5,6 +5,7 @@
 #pragma once
 
 #include "miryoku_layer_alternatives.h"
+#define MIRYOKU_ALPHAS_RSTHP
 
 #if !defined(MIRYOKU_LAYER_BASE)
   #if defined (MIRYOKU_LAYERS_FLIP)
