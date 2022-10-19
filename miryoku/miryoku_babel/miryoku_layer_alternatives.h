@@ -411,16 +411,16 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &kp TAB,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_RNAV \
-&tog U_RIGHTY,     U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&kp RIGHT,         &kp UP,            &kp DOWN,          &kp LEFT,          &u_caps_word,      U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&kp END,           &kp PG_UP,         &kp PG_DN,         &kp HOME,          &kp INS,           U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU               \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_RDO,             U_PST,             U_CPY,             U_CUT,             \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU               \
 
 #define MIRYOKU_ALTERNATIVES_RBNFRD \
-&tog U_RIGHTY,     &kp NUM_9,         &kp NUM_8,         &kp NUM_7,         &kp SPC,           U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&kp NUM_4,         &kp NUM_3,         &kp NUM_2,         &kp NUM_1,         &kp NUM_0,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&tog U_RIGHTY,     U_NU,              &kp NUM_6,         &kp NUM_5,         &kp DOT,           U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU               \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp SPC,           &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         U_NU,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp NUM_0,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp DOT,           &kp NUM_5,         &kp NUM_6,         U_NU,              U_NU,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU               \
 
 #define MIRYOKU_ALTERNATIVES_RNSYM \
 U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp CRRT,          &kp DLLR,          U_NU,              U_NU,              &tog U_RIGHTY,     \
