@@ -17,7 +17,12 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(RIGHTY, "Righty")
+MIRYOKU_X(RIGHTY, "Righty") \
+MIRYOKU_X(RNAV,   "Rnav") \
+MIRYOKU_X(RBNFRD, "Rbnfrd") \
+MIRYOKU_X(RNSYM,  "Rnsym") \
+MIRYOKU_X(RPUNC,  "Rpunc") \
+MIRYOKU_X(RBRAC,  "Rbrac")
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -30,5 +35,10 @@ MIRYOKU_X(RIGHTY, "Righty")
 #define U_SYM    8
 #define U_FUN    9
 #define U_RIGHTY 10
+#define U_RNAV   11
+#define U_RBNFRD 12
+#define U_RNSYM  13
+#define U_RPUNC  14
+#define U_RBRAC  15
 
 #endif
