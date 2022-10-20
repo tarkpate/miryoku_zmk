@@ -129,7 +129,7 @@ U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt 
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
 &tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &lt U_MEDIA Z,     &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &hm LGUI R,        &hm LALT S,        &hm LCTRL T,       &hm LSHFT H,       &kp P,             &kp W,             &hm LSHFT N,       &hm LCTRL A,       &hm LALT I,        &hm LGUI O,        \
-&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &tog U_RIGHTY,\
+&lt U_BUTTON J,    &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &mo U_RIGHTY,\
 U_NP,              U_NP,              &kp TAB,           &lt U_RNAV E,      &lt U_RBNFRD ESC,  &lt U_RNSYM RET,   &lt U_RPUNC SPC,   &lt U_RBRAC BSPC,  U_NP,              U_NP
 
 
