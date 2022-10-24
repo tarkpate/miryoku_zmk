@@ -254,9 +254,9 @@ U_NP,              U_NP,              &kp TAB,           &kp E,             &kp 
 U_NP,              U_NP,              &kp TAB,           &kp E,             &kp ESC,           &kp RET,           &kp SPC,           &kp BSPC,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_RSTHP \
-&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
+&tog U_RIGHTY,     &kp LSHFT,         &kp LALT,          &kp LGUI,          &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &kp R,             &kp S,             &kp T,             &kp H,             &kp P,             &kp W,             &kp N,             &kp A,             &kp I,             &kp O,             \
-&kp J,             &kp V,             &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp DEL,           &tog U_RIGHTY,     \
+&kp LCTRL,         &mo U_RIGHTY,      &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp DEL,           &tog U_RIGHTY,     \
 U_NP,              U_NP,              &kp TAB,           &kp E,             &kp ESC,           &kp RET,           &kp SPC,           &kp BSPC,          U_NP,              U_NP
 
 
