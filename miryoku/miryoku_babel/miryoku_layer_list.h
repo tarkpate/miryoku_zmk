@@ -21,12 +21,7 @@ MIRYOKU_X(BRAC,   "Brac") \
 MIRYOKU_X(PUNC,   "Punc") \
 MIRYOKU_X(BNFRD,  "Bnfrd") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(RIGHTY, "Righty") \
-MIRYOKU_X(RNAV,   "Rnav") \
-MIRYOKU_X(RBNFRD, "Rbnfrd") \
-MIRYOKU_X(RNSYM,  "Rnsym") \
-MIRYOKU_X(RPUNC,  "Rpunc") \
-MIRYOKU_X(RBRAC,  "Rbrac")
+MIRYOKU_X(RIGHTY, "Righty")
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -43,10 +38,5 @@ MIRYOKU_X(RBRAC,  "Rbrac")
 #define U_BNFRD  12
 #define U_FUN    13
 #define U_RIGHTY 14
-#define U_RNAV   15
-#define U_RBNFRD 16
-#define U_RNSYM  17
-#define U_RPUNC  18
-#define U_RBRAC  19
 
 #endif

@@ -404,49 +404,45 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RIGHTY \
-&kp Q,             &kp U,             &kp COMMA,         &kp L,             &lt U_MEDIA Z,     &lt U_FUN K,       &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
-&hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
-&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &kp X,             &kp B,             &kp D,             &kp G,             &hm RALT V,        &kp J,             \
-U_NP,              U_NP,              &lt U_RBRAC BSPC,  &lt U_RPUNC SPC,   &lt U_RNSYM RET,   &lt U_RBNFRD ESC,  &lt U_RNAV E,      &kp TAB,           U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RIGHTY \
+//&kp Q,             &kp U,             &kp COMMA,         &kp L,             &lt U_MEDIA Z,     &lt U_FUN K,       &kp F,             &kp Y,             &kp C,             &tog U_RIGHTY,     \
+//&hm LGUI O,        &hm LALT I,        &hm LCTRL A,       &hm LSHFT N,       &kp W,             &kp P,             &hm LSHFT H,       &hm LCTRL T,       &hm LALT S,        &hm LGUI R,        \
+//&tog U_RIGHTY,     &hm RALT DEL,      &kp DOT,           &kp M,             &kp X,             &kp B,             &kp D,             &kp G,             &hm RALT V,        &kp J,             \
+//U_NP,              U_NP,              &kp BSPC,          &kp SPC,           &kp RET,           &kp ESC,           &kp E,             &kp TAB,           U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RNAV \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_RDO,             U_PST,             U_CPY,             U_CUT,             \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RNAV \
+//
 
-#define MIRYOKU_ALTERNATIVES_BNFRD \
-&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LPAR,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RPAR,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
-U_NA,              &kp RALT,          &to U_SYM,         &to U_BNFRD,       U_NA,              &kp MINUS,         &kp NUM_5,         &kp NUM_6,         &kp ASTRK,         &kp SLASH,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPC,           &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_BNFRD \
+//&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LPAR,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RPAR,          \
+//&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
+//U_NA,              &kp RALT,          &to U_SYM,         &to U_BNFRD,       U_NA,              &kp MINUS,         &kp NUM_5,         &kp NUM_6,         &kp ASTRK,         &kp SLASH,         \
+//U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPC,           &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RBNFRD \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp SPC,           &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         U_NU,              \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp NUM_0,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp DOT,           &kp NUM_5,         &kp NUM_6,         U_NU,              U_NU,              \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RBNFRD \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp SPC,           &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         U_NU,              \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp NUM_0,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp DOT,           &kp NUM_5,         &kp NUM_6,         U_NU,              U_NU,              \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+//U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RNSYM \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp CRRT,          &kp DLLR,          U_NU,              U_NU,              &tog U_RIGHTY,     \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp EQL,           &kp PLUS,          &kp MINUS,         &kp SLASH,         &kp ASTRK,         \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp UNDER,         &kp HASH,          &kp PRCT,          U_NU,              &tog U_RIGHTY,     \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RNSYM \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp CRRT,          &kp DLLR,          U_NU,              U_NU,              &tog U_RIGHTY,     \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp EQL,           &kp PLUS,          &kp MINUS,         &kp SLASH,         &kp ASTRK,         \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp UNDER,         &kp HASH,          &kp PRCT,          U_NU,              &tog U_RIGHTY,     \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
+//U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RPUNC \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp COLON,         &kp TILDE,         &kp AT,            &kp GRAVE,         &tog U_RIGHTY,     \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp SEMI,          &kp SQT,           &kp DQT,           &kp EXCL,          &kp QMARK,         \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp PIPE,          &kp BSLH,          &kp AMPS,          &kp PIPE,          &tog U_RIGHTY,     \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RPUNC \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp COLON,         &kp TILDE,         &kp AT,            &kp GRAVE,         &tog U_RIGHTY,     \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp SEMI,          &kp SQT,           &kp DQT,           &kp EXCL,          &kp QMARK,         \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp PIPE,          &kp BSLH,          &kp AMPS,          &kp PIPE,          &tog U_RIGHTY,     \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
+//U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_RBRAC \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp RPAR,          &kp RBKT,          &kp GT,            &tog U_RIGHTY,     \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp EQL,           &kp LPAR,          &kp LBKT,          &kp LT,            &kp LBRC,          \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp UNDER,         &kp RPAR,          &kp RBKT,          &kp GT,            &kp RBRC,          \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+//#define MIRYOKU_ALTERNATIVES_RBRAC \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp RPAR,          &kp RBKT,          &kp GT,            &tog U_RIGHTY,     \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp EQL,           &kp LPAR,          &kp LBKT,          &kp LT,            &kp LBRC,          \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp UNDER,         &kp RPAR,          &kp RBKT,          &kp GT,            &kp RBRC,          \
+//U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP,              \
+//U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
