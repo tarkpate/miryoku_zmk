@@ -127,9 +127,9 @@ U_NP,              U_NP,              &lt U_MEDIA TAB,   &lt U_NAV E,       &lt 
 U_NP,              U_NP,              &lt U_MEDIA TAB,   &lt U_NAV E,       &lt U_BNFRD ESC,   &lt U_NSYM RET,    &lt U_PUNC SPC,    &lt U_BRAC BSPC,   U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
-&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
+U_NU,              &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &hm LGUI R,        &hm LALT S,        &hm LCTRL T,       &hm LSHFT H,       &kp P,             &kp W,             &hm LSHFT N,       &hm LCTRL A,       &hm LALT I,        &hm LGUI O,        \
-&kp J,             &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      &tog U_RIGHTY,     \
+&kp J,             &hm RALT V,        &kp G,             &kp D,             &lt U_FUN B,       &kp X,             &kp M,             &kp DOT,           &hm RALT DEL,      U_NU,              \
 U_NP,              U_NP,              &lt U_MEDIA TAB,   &lt U_NAV E,       &lt U_BNFRD ESC,   &lt U_NSYM RET,    &lt U_PUNC SPC,    &lt U_BRAC BSPC,   U_NP,              U_NP
 
 
@@ -254,9 +254,9 @@ U_NP,              U_NP,              &kp TAB,           &kp E,             &kp 
 U_NP,              U_NP,              &kp TAB,           &kp E,             &kp ESC,           &kp RET,           &kp SPC,           &kp BSPC,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_RSTHP \
-&tog U_RIGHTY,     &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
+U_NU,              &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &kp R,             &kp S,             &kp T,             &kp H,             &kp P,             &kp W,             &kp N,             &kp A,             &kp I,             &kp O,             \
-&kp J,             &kp V,             &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp DEL,           &tog U_RIGHTY,     \
+&kp J,             &kp V,             &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp DEL,           U_NU,              \
 U_NP,              U_NP,              &kp TAB,           &kp E,             &kp ESC,           &kp RET,           &kp SPC,           &kp BSPC,          U_NP,              U_NP
 
 

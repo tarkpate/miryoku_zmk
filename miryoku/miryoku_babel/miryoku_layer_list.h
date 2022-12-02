@@ -20,8 +20,7 @@ MIRYOKU_X(NSYM,   "Nsym") \
 MIRYOKU_X(BRAC,   "Brac") \
 MIRYOKU_X(PUNC,   "Punc") \
 MIRYOKU_X(BNFRD,  "Bnfrd") \
-MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(RIGHTY, "Righty")
+MIRYOKU_X(FUN,    "Fun")
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -37,6 +36,5 @@ MIRYOKU_X(RIGHTY, "Righty")
 #define U_PUNC   11
 #define U_BNFRD  12
 #define U_FUN    13
-#define U_RIGHTY 14
 
 #endif
