@@ -16,6 +16,10 @@ MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
+MIRYOKU_X(NSYM,   "Nsym") \
+MIRYOKU_X(BRAC,   "Brac") \
+MIRYOKU_X(PUNC,   "Punc") \
+MIRYOKU_X(BNFRD,  "Bnfrd") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(RIGHTY, "Righty") \
 MIRYOKU_X(RNAV,   "Rnav") \
@@ -33,12 +37,16 @@ MIRYOKU_X(RBRAC,  "Rbrac")
 #define U_MEDIA  6
 #define U_NUM    7
 #define U_SYM    8
-#define U_FUN    9
-#define U_RIGHTY 10
-#define U_RNAV   11
-#define U_RBNFRD 12
-#define U_RNSYM  13
-#define U_RPUNC  14
-#define U_RBRAC  15
+#define U_NSYM   9
+#define U_BRAC   10
+#define U_PUNC   11
+#define U_BNFRD  12
+#define U_FUN    13
+#define U_RIGHTY 14
+#define U_RNAV   15
+#define U_RBNFRD 16
+#define U_RNSYM  17
+#define U_RPUNC  18
+#define U_RBRAC  19
 
 #endif
