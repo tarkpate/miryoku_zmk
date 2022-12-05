@@ -3,6 +3,8 @@
 // generated -*- buffer-read-only: t -*-
 
 #pragma once
+#define MIRYOKU_ALPHAS_RSTHP
+#define MIRYOKU_TAP_RSTHP
 
 #include "miryoku_layer_alternatives.h"
 
@@ -52,6 +54,8 @@
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_QWERTY
     #elif defined (MIRYOKU_ALPHAS_QWERTZ)
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_QWERTZ
+    #elif defined (MIRYOKU_ALPHAS_RSTHP)
+      #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_RSTHP
     #else
       #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH
     #endif
@@ -162,6 +166,8 @@
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_QWERTY
     #elif defined (MIRYOKU_TAP_QWERTZ)
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_QWERTZ
+    #elif defined (MIRYOKU_TAP_RSTHP)
+      #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_RSTHP
     #else
       #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH
     #endif
