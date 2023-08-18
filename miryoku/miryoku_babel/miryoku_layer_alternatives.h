@@ -129,7 +129,7 @@ U_NP,              U_NP,              U_LT(U_BRAC, TAB), U_LT(U_NAV, E),    U_LT
 #define MIRYOKU_ALTERNATIVES_BASE_RSTHP \
 &kp DEL,           &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 U_MT(LGUI, R),     U_MT(LALT, S),     U_MT(LCTRL, T),    U_MT(LSHFT, H),    &kp P,             &kp W,             U_MT(LSHFT, N),    U_MT(LCTRL, A),    U_MT(LALT, I),     U_MT(LGUI, O),     \
-&kp J,             U_MT(RALT, V),     &kp G,             &kp D,             U_LT(U_MEDIA, B),  U_LT(U_FUN, X),    U_MT(RALT, M),     &kp DOT,           &kp BSPC,          &kp TG(TRACKBALL), \
+&kp J,             U_MT(RALT, V),     &kp G,             &kp D,             U_LT(U_MEDIA, B),  U_LT(U_FUN, X),    U_MT(RALT, M),     &kp DOT,           &kp BSPC,          U_NU,              \
 U_NP,              U_NP,              U_LT(U_BRAC, TAB), U_LT(U_NAV, E),    U_LT(U_BNFRD, ESC),U_LT(U_NSYM, RET), U_LT(U_PUNC, SPC), U_NP,              U_NP,              U_NP
 
 
@@ -256,7 +256,7 @@ U_NP,              U_NP,              &kp TAB,           &kp E,             &kp 
 #define MIRYOKU_ALTERNATIVES_TAP_RSTHP \
 &kp DEL,           &kp C,             &kp Y,             &kp F,             &kp K,             &kp Z,             &kp L,             &kp COMMA,         &kp U,             &kp Q,             \
 &kp R,             &kp S,             &kp T,             &kp H,             &kp P,             &kp W,             &kp N,             &kp A,             &kp I,             &kp O,             \
-&kp J,             &kp V,             &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp BSPC,          &kp TG(TRACKBALL), \
+&kp J,             &kp V,             &kp G,             &kp D,             &kp B,             &kp X,             &kp M,             &kp DOT,           &kp BSPC,          U_NU,              \
 U_NP,              U_NP,              &kp TAB,           &kp E,             &kp ESC,           &kp RET,           &kp SPC,           U_NP,              U_NP,              U_NP
 
 
